@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+#Main{
+    display: flex;
+}
+
+#left{
+    height: 890px;
+    flex: 20%;
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+    font-size: 90px;
+    font-family: cursive;
+    font-weight: bold;
+    text-shadow: 2px 2px blue;
+    color: white;
+}
+
+#right{
+    height: 100%;
+    flex: 20%;
+}
+#image{
+    height: 890px;
+    flex: 60%;
+    animation-name: imgs;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-delay: 1s;
+}
+#wut{
+    height: 90px;
+    width: 200px;
+    margin: 25px;
+    border: 5px inset white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 100px;
+    background-color: aquamarine;
+    transition: 1s all;
+}
+#wut:hover{
+    background-color: rgb(30, 98, 75);
+}
+#chrome{
+    height: 90px;
+    width: 200px;
+    margin: 25px;
+    border: 5px inset white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 100px;
+    background-color: aquamarine;
+    transition: 1s all;
+}
+#chrome:hover{
+    background-color: rgb(30, 98, 75);
+}
+#insta{
+    height: 90px;
+    width: 200px;
+    margin: 25px;
+    border: 5px inset white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 100px;
+    background-color: aquamarine;
+    transition: 1s all;
+}
+#insta:hover{
+    background-color: rgb(30, 98, 75);
+}
+#flp{
+    height: 90px;
+    width: 200px;
+    margin: 25px;
+    border: 5px inset white;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 100px;
+    background-color: aquamarine;
+    transition: 1s all;
+}
+#flp:hover{
+    background-color: rgb(30, 98, 75);
+}
+a{
+    color: white;
+    font-size: large;
+    font-family: cursive;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px blue;
+    transition: 2s all;
+}
+
+a:hover{
+    color: red;
+    font-size: large;
+    font-family: cursive;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 2px 2px white;
+}
+
+@keyframes imgs{
+    0%{
+        background-image: url(https://i.pinimg.com/474x/60/b7/1c/60b71c6c3af3c99f62136cf2f7e25cac.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    30%{
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Google_Chrome_icon_%28February_2022%29.svg/2048px-Google_Chrome_icon_%28February_2022%29.svg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    60%{
+        background-image: url(https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    90%{
+        background-image: url(https://thumbs.dreamstime.com/z/facebook-login-home-page-screen-facebook-login-home-page-create-new-account-create-page-celebrity-band-business-219849098.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    100%{
+        background-image: url(https://i.pinimg.com/474x/60/b7/1c/60b71c6c3af3c99f62136cf2f7e25cac.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
